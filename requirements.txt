@@ -1,0 +1,35 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+brotli=1.0.9=pypi_0
+ca-certificates=2022.2.1=haa95532_0
+certifi=2021.10.8=py38haa95532_2
+click=8.0.4=pypi_0
+colorama=0.4.4=pypi_0
+dash=2.2.0=pypi_0
+dash-bootstrap-components=1.0.3=pypi_0
+dash-core-components=2.0.0=pypi_0
+dash-html-components=2.0.0=pypi_0
+dash-table=5.0.0=pypi_0
+flask=2.0.3=pypi_0
+flask-compress=1.11=pypi_0
+itsdangerous=2.1.0=pypi_0
+jinja2=3.0.3=pypi_0
+markupsafe=2.1.0=pypi_0
+numpy=1.22.2=pypi_0
+openssl=1.1.1m=h2bbff1b_0
+pandas=1.4.1=pypi_0
+pip=21.2.2=py38haa95532_0
+plotly=5.6.0=pypi_0
+python=3.8.12=h6244533_0
+python-dateutil=2.8.2=pypi_0
+pytz=2021.3=pypi_0
+setuptools=58.0.4=py38haa95532_0
+six=1.16.0=pypi_0
+sqlite=3.37.2=h2bbff1b_0
+tenacity=8.0.1=pypi_0
+vc=14.2=h21ff451_1
+vs2015_runtime=14.27.29016=h5e58377_2
+werkzeug=2.0.3=pypi_0
+wheel=0.37.1=pyhd3eb1b0_0
+wincertstore=0.2=py38haa95532_2
