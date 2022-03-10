@@ -7,17 +7,16 @@ from homepage_content import homepage_content
 from sidebar import sidebar
 
 
-app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(external_stylesheets=[dbc.themes.SOLAR])
 
 
 # the styles for the main content position it to the right of the sidebar and
 # add some padding.
 CONTENT_STYLE = {
-    "margin-left": "18rem",
-    "margin-right": "2rem",
+    "margin-left": "16rem",
+    "margin-right": "0rem",
     "padding": "2rem 1rem",
 }
-
 
 content = html.Div(id="page-content", style=CONTENT_STYLE)
 
@@ -28,11 +27,11 @@ app.layout = html.Div([dcc.Location(id="url"), sidebar, content])
 @app.callback(Output("page-content", "children"), [Input("url", "pathname")])
 def render_page_content(pathname):
     if pathname == "/":
-        return html.P("Home page  Present context, doc etc.. ")
-    elif pathname == "/page-1":
+        return html.P(homepage_content)
+    elif pathname == "/explore-emg":
         return html.P(exploreemg_content)
-    elif pathname == "/page-2":
-        return html.P("Oh cool, this is page 2!")
+    elif pathname == "/another-panel":
+        return html.P("Oh cool, this is another panel!")
     # If the user tries to reach a different page, return a 404 message
     return dbc.Jumbotron(
         [
@@ -44,4 +43,4 @@ def render_page_content(pathname):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False)

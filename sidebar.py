@@ -2,7 +2,6 @@ from dash import html
 import dash_bootstrap_components as dbc
 
 
-
 # the style arguments for the sidebar. We use position:fixed and a fixed width
 SIDEBAR_STYLE = {
     "position": "fixed",
@@ -11,21 +10,23 @@ SIDEBAR_STYLE = {
     "bottom": 0,
     "width": "16rem",
     "padding": "2rem 1rem",
-    "background-color": "#f8f9fa",
+    "background-color": "#e9c46a",
 }
 
 sidebar = html.Div(
     [
-        html.H2("Sidebar", className="display-4"),
+        html.H2("Myo App", className="display-4"),
         html.Hr(),
         html.P(
-            "A simple sidebar layout with navigation links", className="lead"
+            "A basic exemple of an EMG data mining application", className="lead"
         ),
         dbc.Nav(
             [
                 dbc.NavLink("Home", href="/", active="exact"),
-                dbc.NavLink("Page 1", href="/page-1", active="exact"),
-                dbc.NavLink("Page 2", href="/page-2", active="exact"),
+                dbc.NavLink("Explore EMG signal",
+                            href="/explore-emg", active="exact"),
+                dbc.NavLink("Another panel",
+                            href="/another-panel", active="exact"),
             ],
             vertical=True,
             pills=True,
@@ -33,5 +34,3 @@ sidebar = html.Div(
     ],
     style=SIDEBAR_STYLE,
 )
-
-

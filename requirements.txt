@@ -1,35 +1,71 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: win-64
-brotli=1.0.9=pypi_0
-ca-certificates=2022.2.1=haa95532_0
-certifi=2021.10.8=py38haa95532_2
-click=8.0.4=pypi_0
-colorama=0.4.4=pypi_0
-dash=2.2.0=pypi_0
-dash-bootstrap-components=1.0.3=pypi_0
-dash-core-components=2.0.0=pypi_0
-dash-html-components=2.0.0=pypi_0
-dash-table=5.0.0=pypi_0
-flask=2.0.3=pypi_0
-flask-compress=1.11=pypi_0
-itsdangerous=2.1.0=pypi_0
-jinja2=3.0.3=pypi_0
-markupsafe=2.1.0=pypi_0
-numpy=1.22.2=pypi_0
-openssl=1.1.1m=h2bbff1b_0
-pandas=1.4.1=pypi_0
-pip=21.2.2=py38haa95532_0
-plotly=5.6.0=pypi_0
-python=3.8.12=h6244533_0
-python-dateutil=2.8.2=pypi_0
-pytz=2021.3=pypi_0
-setuptools=58.0.4=py38haa95532_0
-six=1.16.0=pypi_0
-sqlite=3.37.2=h2bbff1b_0
-tenacity=8.0.1=pypi_0
-vc=14.2=h21ff451_1
-vs2015_runtime=14.27.29016=h5e58377_2
-werkzeug=2.0.3=pypi_0
-wheel=0.37.1=pyhd3eb1b0_0
-wincertstore=0.2=py38haa95532_2
+# packages in environment at C:\Users\simon\miniconda3\envs\myodash:
+#
+# Name                    Version                   Build  Channel
+attrs                     21.4.0                   pypi_0    pypi
+backcall                  0.2.0              pyhd3eb1b0_0  
+blas                      1.0                         mkl  
+brotli                    1.0.9                    pypi_0    pypi
+ca-certificates           2022.2.1             haa95532_0  
+certifi                   2021.10.8        py38haa95532_2  
+click                     8.0.4                    pypi_0    pypi
+colorama                  0.4.4              pyhd3eb1b0_0  
+dash                      2.2.0                    pypi_0    pypi
+dash-bootstrap-components 1.0.3                    pypi_0    pypi
+dash-core-components      2.0.0                    pypi_0    pypi
+dash-html-components      2.0.0                    pypi_0    pypi
+dash-table                5.0.0                    pypi_0    pypi
+debugpy                   1.5.1            py38hd77b12b_0  
+decorator                 5.1.1              pyhd3eb1b0_0  
+entrypoints               0.3                      py38_0  
+flask                     2.0.3                    pypi_0    pypi
+flask-compress            1.11                     pypi_0    pypi
+icc_rt                    2019.0.0             h0cc432a_1  
+importlib-resources       5.4.0                    pypi_0    pypi
+intel-openmp              2021.4.0          haa95532_3556  
+ipykernel                 6.4.1            py38haa95532_1  
+ipython                   7.31.1           py38haa95532_0  
+ipython_genutils          0.2.0              pyhd3eb1b0_1  
+itsdangerous              2.1.0                    pypi_0    pypi
+jedi                      0.18.1           py38haa95532_1  
+jinja2                    3.0.3                    pypi_0    pypi
+jsonschema                4.4.0                    pypi_0    pypi
+jupyter_client            7.1.2              pyhd3eb1b0_0  
+jupyter_core              4.9.1            py38haa95532_0  
+markupsafe                2.1.0                    pypi_0    pypi
+matplotlib-inline         0.1.2              pyhd3eb1b0_2  
+mkl                       2021.4.0           haa95532_640  
+mkl-service               2.4.0            py38h2bbff1b_0  
+mkl_fft                   1.3.1            py38h277e83a_0  
+mkl_random                1.2.2            py38hf11a4ad_0  
+nbformat                  5.1.3                    pypi_0    pypi
+nest-asyncio              1.5.1              pyhd3eb1b0_0  
+numpy                     1.22.2                   pypi_0    pypi
+numpy-base                1.21.5           py38hc2deb75_0  
+openssl                   1.1.1m               h2bbff1b_0  
+pandas                    1.4.1                    pypi_0    pypi
+parso                     0.8.3              pyhd3eb1b0_0  
+pickleshare               0.7.5           pyhd3eb1b0_1003  
+pip                       21.2.2           py38haa95532_0  
+plotly                    5.6.0                    pypi_0    pypi
+prompt-toolkit            3.0.20             pyhd3eb1b0_0  
+pygments                  2.11.2             pyhd3eb1b0_0  
+pyrsistent                0.18.1                   pypi_0    pypi
+python                    3.8.12               h6244533_0  
+python-dateutil           2.8.2              pyhd3eb1b0_0  
+pytz                      2021.3                   pypi_0    pypi
+pywin32                   302              py38h827c3e9_1  
+pyzmq                     22.3.0           py38hd77b12b_2  
+scipy                     1.7.3            py38h0a974cb_0  
+setuptools                58.0.4           py38haa95532_0  
+six                       1.16.0             pyhd3eb1b0_1  
+sqlite                    3.37.2               h2bbff1b_0  
+tenacity                  8.0.1                    pypi_0    pypi
+tornado                   6.1              py38h2bbff1b_0  
+traitlets                 5.1.1              pyhd3eb1b0_0  
+vc                        14.2                 h21ff451_1  
+vs2015_runtime            14.27.29016          h5e58377_2  
+wcwidth                   0.2.5              pyhd3eb1b0_0  
+werkzeug                  2.0.3                    pypi_0    pypi
+wheel                     0.37.1             pyhd3eb1b0_0  
+wincertstore              0.2              py38haa95532_2  
+zipp                      3.7.0                    pypi_0    pypi
